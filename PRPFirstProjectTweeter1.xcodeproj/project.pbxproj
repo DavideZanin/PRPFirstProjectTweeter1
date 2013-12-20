@@ -19,6 +19,8 @@
 		15BDCE3E1863C48B00573037 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BDCE261863C48A00573037 /* UIKit.framework */; };
 		15BDCE461863C48B00573037 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15BDCE441863C48B00573037 /* InfoPlist.strings */; };
 		15BDCE481863C48B00573037 /* PRPFirstProjectTweeter1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BDCE471863C48B00573037 /* PRPFirstProjectTweeter1Tests.m */; };
+		15BDCE541863C4D000573037 /* PRPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BDCE521863C4D000573037 /* PRPViewController.m */; };
+		15BDCE551863C4D000573037 /* PRPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15BDCE531863C4D000573037 /* PRPViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		15BDCE431863C48B00573037 /* PRPFirstProjectTweeter1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRPFirstProjectTweeter1Tests-Info.plist"; sourceTree = "<group>"; };
 		15BDCE451863C48B00573037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15BDCE471863C48B00573037 /* PRPFirstProjectTweeter1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRPFirstProjectTweeter1Tests.m; sourceTree = "<group>"; };
+		15BDCE511863C4D000573037 /* PRPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPViewController.h; sourceTree = "<group>"; };
+		15BDCE521863C4D000573037 /* PRPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPViewController.m; sourceTree = "<group>"; };
+		15BDCE531863C4D000573037 /* PRPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRPViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		15BDCE161863C48A00573037 = {
 			isa = PBXGroup;
 			children = (
+				15BDCE511863C4D000573037 /* PRPViewController.h */,
+				15BDCE521863C4D000573037 /* PRPViewController.m */,
+				15BDCE531863C4D000573037 /* PRPViewController.xib */,
 				15BDCE281863C48A00573037 /* PRPFirstProjectTweeter1 */,
 				15BDCE411863C48B00573037 /* PRPFirstProjectTweeter1Tests */,
 				15BDCE211863C48A00573037 /* Frameworks */,
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15BDCE2D1863C48A00573037 /* InfoPlist.strings in Resources */,
+				15BDCE551863C4D000573037 /* PRPViewController.xib in Resources */,
 				15BDCE351863C48A00573037 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +251,7 @@
 			files = (
 				15BDCE2F1863C48A00573037 /* main.m in Sources */,
 				15BDCE331863C48A00573037 /* PRPAppDelegate.m in Sources */,
+				15BDCE541863C4D000573037 /* PRPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
