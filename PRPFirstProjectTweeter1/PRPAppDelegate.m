@@ -7,6 +7,7 @@
 //
 
 #import "PRPAppDelegate.h"
+#import "PRPViewController.h" //MIO inizio
 
 @implementation PRPAppDelegate
 
@@ -15,6 +16,15 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    
+    PRPViewController *viewController = [[PRPViewController alloc] //MIO inizio
+                initWithNibName:@"PRPViewController" bundle:nil]; //MIO inizio
+    self.window.rootViewController = viewController; //MIO inizio
+    
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
