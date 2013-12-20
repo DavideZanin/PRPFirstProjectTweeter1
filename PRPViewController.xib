@@ -21,7 +21,7 @@
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="handleTweetButtonTapped:" destination="-1" eventType="touchDragInside" id="qJ8-kA-tUP"/>
+                        <action selector="handleTweetButtonTapped:" destination="-1" eventType="touchUpInside" id="C6B-wm-u1B"/>
                     </connections>
                 </button>
             </subviews>
