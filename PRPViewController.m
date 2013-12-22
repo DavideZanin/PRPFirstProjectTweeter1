@@ -36,14 +36,16 @@
     // Dispose of any resources that can be recreated.
 }
 
--(IBAction)handleTweetButtonTapped:(id)sender { //MIO
-    if([SLComposeViewController isAvailableForServiceType: SLServiceTypeTwitter])
-        SLComposeViewController *tweetVC = [SLComposeViewController composeViewControllerForServiceType SLServiceTypeTwitter];
-    [tweetVC setInitialText: @"I just finished the first project in iOS SDK Development."];
-    [self presentViewController:tweetVC animated:YES completion:NULL];
-} else {
+- (IBAction)handleTweetButtonTapped:(id) sender {
+    if([SLComposeViewController isAvailableForServiceType: SLServiceTypeTwitter]){
+        SLComposeViewController *tweetVC = [SLComposeViewController composeViewControllerForServiceType: SLServiceTypeTwitter];
+        [tweetVC setInitialText: @"I just finished the first project in iOS SDK Development."];
+        [self presentViewController:tweetVC animated:YES completion:NULL];
+    } else {
     NSLog (@"Can't send tweet");
+    }
 }
-
+    
+    
 
 @end
