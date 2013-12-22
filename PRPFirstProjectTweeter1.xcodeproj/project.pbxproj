@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153DFE9E1867248600CB1AB9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153DFE9D1867248600CB1AB9 /* Social.framework */; };
 		15BDCE231863C48A00573037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BDCE221863C48A00573037 /* Foundation.framework */; };
 		15BDCE251863C48A00573037 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BDCE241863C48A00573037 /* CoreGraphics.framework */; };
 		15BDCE271863C48A00573037 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BDCE261863C48A00573037 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		153DFE9D1867248600CB1AB9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		15BDCE1F1863C48A00573037 /* PRPFirstProjectTweeter1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRPFirstProjectTweeter1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15BDCE221863C48A00573037 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		15BDCE241863C48A00573037 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				153DFE9E1867248600CB1AB9 /* Social.framework in Frameworks */,
 				15BDCE251863C48A00573037 /* CoreGraphics.framework in Frameworks */,
 				15BDCE271863C48A00573037 /* UIKit.framework in Frameworks */,
 				15BDCE231863C48A00573037 /* Foundation.framework in Frameworks */,
@@ -104,6 +107,7 @@
 		15BDCE211863C48A00573037 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				153DFE9D1867248600CB1AB9 /* Social.framework */,
 				15BDCE221863C48A00573037 /* Foundation.framework */,
 				15BDCE241863C48A00573037 /* CoreGraphics.framework */,
 				15BDCE261863C48A00573037 /* UIKit.framework */,
@@ -452,6 +456,7 @@
 				15BDCE4D1863C48B00573037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15BDCE4E1863C48B00573037 /* Build configuration list for PBXNativeTarget "PRPFirstProjectTweeter1Tests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +465,7 @@
 				15BDCE501863C48B00573037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
